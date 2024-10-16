@@ -1,0 +1,6 @@
+@LojinhaManuel_HostAddress = http://localhost:5029
+
+GET {{LojinhaManuel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
