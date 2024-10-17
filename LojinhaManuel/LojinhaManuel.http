@@ -4,3 +4,12 @@ GET {{LojinhaManuel_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{LojinhaManuel_HostAddress}}/api/pedidos/EmpacotarPedidos
+Content-Type: application/json
+
+{
+
+}
+
+###

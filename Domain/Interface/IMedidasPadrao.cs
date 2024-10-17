@@ -1,8 +1,6 @@
-﻿using LojinhaManuel.Data.Interface;
-
-namespace LojinhaManuel.Data.Model
+﻿namespace LojinhaManuel.Domain.Interface
 {
-    public class Dimensoes : IMedidasPadrao
+    public interface IMedidasPadrao
     {
         public int Altura { get; set; }
         public int Largura { get; set; }

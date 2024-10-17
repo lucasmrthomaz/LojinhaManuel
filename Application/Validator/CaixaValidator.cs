@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using LojinhaManuel.Data.Model;
+using LojinhaManuel.Domain.Model;
 
 namespace LojinhaManuel.Validator
 {
@@ -7,8 +7,8 @@ namespace LojinhaManuel.Validator
     {
         public CaixaValidator()
         {
-            RuleFor(caixa => caixa.CaixaId).NotNull();
-            RuleFor(caixa => caixa.CaixaNome).NotEmpty();
+            //RuleFor(caixa => caixa.CaixaId).NotNull();
+            //RuleFor(caixa => caixa.CaixaNome).NotEmpty();
         }
     }
 }
